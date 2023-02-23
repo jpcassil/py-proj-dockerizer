@@ -1,0 +1,18 @@
+# Misc
+.pytest_cache/
+*__pycache__*
+*.DS_Store*
+*.pyc
+.venv/*
+init_git.sh
+# Env
+.env/env
+# Test and build things
+.coverage
+requirements.txt
+# Local notes and such
+NOTES.md
+scratch.py
+scratch.sh
+scratch.sql
+.vscode
