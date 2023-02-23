@@ -54,11 +54,5 @@ make docker-build  # This will build the docker image
 
 ## To deploy a project: ##
 
-A CircleCI deployment project will be created when your project has been pushed to GitHub. 
-Additional pushes to branches that are not `main` will republish the docker image of your project to dev. 
-Any pushes to `main` will republish the docker image of your project to stg and prd (after manual approval in CircleCI).
-
-It is possible to manually push the docker image of your local version of the project to dev (if needed) by running the following command.
-```
-make docker-push  # This will push the docker image to the dev image repo
+In progress!
 ```
